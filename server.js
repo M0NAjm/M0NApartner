@@ -110,7 +110,7 @@ client.on("message", async message => {
   if (
     message.author.bot ||
     message.channel.type !== "dm" ||
-    !message.content.includes("")
+    !message.content.includes("https://discord.gg/")
   )
     return;
 
