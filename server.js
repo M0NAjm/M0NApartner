@@ -144,7 +144,7 @@ client.on("message", async message => {
     .send(ad_message + "\n\n<@" + user.id + ">");
 
   message.channel.send(
-    "https://discord.gg/n8vS2XYcPR reklamakat kra tosh am servara rekalam bka"
+    "https://discord.gg/sg2shp5R5h reklamakat kra tosh am servara rekalam bka"
     
   );
 
