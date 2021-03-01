@@ -1,4 +1,4 @@
-const http = require("http");
+kconst http = require("http");
 const express = require("express");
 const app = express();
 
@@ -144,7 +144,7 @@ client.on("message", async message => {
     .send(ad_message + "\n\n<@" + user.id + ">");
 
   message.channel.send(
-    "https://discord.gg/sg2shp5R5h reklamakat kra tosh am servara rekalam bka"
+    "https://discord.gg/p26QvJ8j4d reklamakat kra tosh am servara rekalam bka"
     
   );
 
