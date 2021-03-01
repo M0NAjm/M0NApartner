@@ -30,7 +30,7 @@ client.on("ready", () => {
   console.log(
     `Online In Servers : ${client.guilds.size} | Users : ${client.users.size}`
   );
-  let statuses = ["|✅| BY MR.ZERO|✅|"];
+  let statuses = ["|✅| BY MR.JANO|✅|"];
 
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
@@ -150,4 +150,4 @@ client.on("message", async message => {
 
   db.set(user.id, moment().format("x"), "last");
 });
-client.login(token);
+client.login("NzQ2NTA1ODQyNjA5NjE5MDQ2.X0BTvg.SoZ7gqriVxOHZGeLsFiRYHLOHTQ");
