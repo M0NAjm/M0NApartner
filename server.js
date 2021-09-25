@@ -1,4 +1,4 @@
-kconst http = require("http");
+const http = require("http");
 const express = require("express");
 const app = express();
 
@@ -150,4 +150,4 @@ client.on("message", async message => {
 
   db.set(user.id, moment().format("x"), "last");
 });
-client.login("NzQ2NTA1ODQyNjA5NjE5MDQ2.X0BTvg.SoZ7gqriVxOHZGeLsFiRYHLOHTQ");
+client.login("ODg5MzE1ODY0MTMyODcwMTY0.YUfd8A.Lldlr2NJUhKZ_fj_l4zQhIn3Sxo");
