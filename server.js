@@ -30,7 +30,7 @@ client.on("ready", () => {
   console.log(
     `Online In Servers : ${client.guilds.size} | Users : ${client.users.size}`
   );
-  let statuses = ["|✅| BY MR.JANO|✅|"];
+  let statuses = ["Project By : M0NA"];
 
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
@@ -136,18 +136,18 @@ client.on("message", async message => {
   }
 
   var ad_message = message.content
-    .replace("@everyone", "R")
-    .replace("@here", "r");
+    .replace("@everyone", "everyone qadaxaya ")
+    .replace("@here", "here qadaxaya");
 
   client.channels.cache
     .get(config.ad_channel)
     .send(ad_message + "\n\n<@" + user.id + ">");
 
   message.channel.send(
-    "https://discord.gg/p26QvJ8j4d reklamakat kra tosh am servara rekalam bka"
+    "https://discord.gg/gWjzgxhyqy reklamakat kra tosh am servara rekalam bka"
     
   );
 
   db.set(user.id, moment().format("x"), "last");
 });
-client.login("ODg5MzE1ODY0MTMyODcwMTY0.YUfd8A.Lldlr2NJUhKZ_fj_l4zQhIn3Sxo");
+client.login("Desanawa Tokene bot dabne⛔⛔");
