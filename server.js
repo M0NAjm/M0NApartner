@@ -100,7 +100,7 @@ client.on("message", SAEWAN => {
 
 
 client.on("message", async message => {
-  if (message.content === "join") {
+  if (message.content === "wara voice") {
     if (message.member.voice.channel) {
       const connection = await message.member.voice.channel.join();
     } else {
